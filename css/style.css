@@ -1547,9 +1547,12 @@ body {
 }
 
 .feedback {
-  width: 330px;
+  box-sizing: border-box;
+  max-width: 330px;
   padding-left: 23px;
   padding-right: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .feedback-title {
@@ -1586,7 +1589,7 @@ body {
 
 .feedback-content-field {
   padding: 20px;
-  width: 280px;
+  width: 100%;
 }
 
 .feedback-answer {
