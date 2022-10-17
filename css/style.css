@@ -640,7 +640,6 @@ body {
 .shop-card-image {
   background-color: #eff6f1;
   max-height: 205px; 
-
 }
 
 .product-description {
@@ -776,7 +775,7 @@ body {
 }
 
 .hidden {
-  /*display: none;*/
+  display: none;
 }
 
 .feedback {
