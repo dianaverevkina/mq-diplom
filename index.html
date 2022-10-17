@@ -11,7 +11,10 @@
   <div class="container">
 	  <div class="menu">
       <a href="#" class="logo" > <img src="svg/noemi-logo.svg" alt="Noemi логотип"></a>
-      <nav class="menu-items">
+      <nav class="menu-items-list">
+          <button class="menu__button">
+          <span class="menu__button-label">Открыть меню</span>
+        </button>
         <ul class="menu-items">
           <li class="menu-item"><a href="#" class="item-link">Главная</a></li>
           <li class="menu-item"><a href="#" class="item-link">Посты</a></li>
@@ -75,19 +78,21 @@
 <div class="container">
   <div class="content">
 	  <main class="post-list">
+
 		  <section class="news">
         <img src="images/last-post1.jpg" class="news-picture" alt="Человек, идущий по пляжу">
         <div class="news-post">
           <ul class="categories">
             <li class="category"><a href="#" class="category-name">Travel</a></li>
-					  <li class="category category-add"><a href="#" class="category-name">Health</a></li>
+					  <li class="category"><a href="#" class="category-name">Health</a></li>
 				  </ul>
           <h2 class="news-title"><a href="#" class="news-title-name">10 мест, ради которых стоит проснуться на рассвете</a></h2>
-          <p class="subtext">
+          <div class="subtext">
             <time class="subtext-date">10 июня 2019</time> <span class="subtext-author">Неизвестный автор</span>
-          </p>
-				  <p class="news-content">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
+          </div>
+				  <p class="news-content">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть? </p>
         </div>
+        <div class="news-divide"></div>
           </section>
         
         <section class="news">
@@ -95,14 +100,15 @@
           <div class="news-post">
             <ul class="categories">
               <li class="category"><a href="#" class="category-name">Health</a></li>
-					    <li class="category category-add"><a href="#" class="category-name">Lifestyle</a></li>
+					    <li class="category"><a href="#" class="category-name">Lifestyle</a></li>
 				    </ul>
             <h2 class="news-title"><a href="#" class="news-title-name">Йога для начинающих в домашних условиях</a></h2>
-            <p class="subtext">
+            <div class="subtext">
               <time class="subtext-date">10 июня 2019</time> <span class="subtext-author">Неизвестный автор</span>
-            </p>
+            </div>
             <p class="news-content">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p> 
           </div> 
+          <div class="news-divide"></div>
         </section>
         
         <section class="news">
@@ -112,12 +118,13 @@
               <li class="category"><a href="#" class="category-name">Music</a></li>
 				    </ul>
             <h2 class="news-title"><a href="#" class="news-title-name">Лучшие музыкальные фестивали этого лета</a></h2>
-				    <p class="subtext">
+				    <div class="subtext">
               <time class="subtext-date">10 июня 2019</time> <span class="subtext-author">Неизвестный автор</span>
-            </p>
+            </div>
 				    <p class="news-content">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьете свою палатку?</p>
             <p class="news-content">Мы составили список лучших летних фестивалей по всему миру.</p>
           </div>
+          <div class="news-divide"></div>
 		    </section>
         
         <section class="news">
@@ -125,14 +132,15 @@
           <div class="news-post">
 				    <ul class="categories">
               <li class="category"><a href="#" class="category-name">Lifestyle</a></li>
-					    <li class="category category-add"><a href="#" class="category-name">Food</a></li>
+					    <li class="category"><a href="#" class="category-name">Food</a></li>
 				    </ul>
             <h2 class="news-title"><a href="#" class="news-title-name">Наукоёмкий подход к кулинарии</a></h2>
-				    <p class="subtext">
+				    <div class="subtext">
               <time class="subtext-date">10 июня 2019</time> <span class="subtext-author">Неизвестный автор</span>
-            </p>
+            </div>
 				    <p class="news-content">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
 			     </div>
+           <div class="news-divide"></div>
 		    </section>
         
         <section class="news">
@@ -140,15 +148,16 @@
           <div class="news-post">
 				    <ul class="categories">
               <li class="category"><a href="#" class="category-name">Lifestyle</a></li>
-					    <li class="category category-add"><a href="#" class="category-name">Interior</a></li>
-              <li class="category category-add"><a href="#" class="category-name">Art</a></li>
+					    <li class="category"><a href="#" class="category-name">Interior</a></li>
+              <li class="category"><a href="#" class="category-name">Art</a></li>
 				    </ul>
             <h2 class="news-title"><a href="#" class="news-title-name">Делаем модные принты на подушках для интерьера</a></h2>
-            <p class="subtext">
+            <div class="subtext">
               <time class="subtext-date">10 июня 2019</time> <span class="subtext-author">Неизвестный автор</span>
-            </p>
+            </div>
 				    <p class="news-content">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
 			     </div>
+           <div class="news-divide-last"></div>
 		    </section>
 	    </main>
       
@@ -157,9 +166,9 @@
         <section class="latest-post">
           <img src="images/2.jpg" class="latest-post-picture" alt="Человек на пляже">
           <div class="latest-post-content">
-            <p class="above-text">
+            <div class="above-text">
               <time class="above-text-date">14 июня 2019</time>
-            </p>
+            </div>
             <h3 class="latest-post-title"><a href="#" class="latest-post-link">10 мест, ради которых стоит проснуться</a></h3>
           </div>
         </section>
@@ -167,9 +176,9 @@
         <section class="latest-post">
           <img src="images/151.jpg" class="latest-post-picture" alt="Девушка, занимающаяся йогой">
           <div class="latest-post-content">
-            <p class="above-text">
+            <div class="above-text">
               <time class="above-text-date">14 июня 2019</time>
-            </p>
+            </div>
             <h3 class="latest-post-title"><a href="#" class="latest-post-link">Йога для домашних</a></h3>
           </div>
         </section>
@@ -177,9 +186,9 @@
         <section class="latest-post">
           <img src="images/45.jpg" class="latest-post-picture" alt="Кресло и пианино">
           <div class="latest-post-content">
-            <p class="above-text">
+            <div class="above-text">
               <time class="above-text-date">14 июня 2019</time>
-            </p>
+            </div>
             <h3 class="latest-post-title"><a href="#" class="latest-post-link">Как мы превратили классное место в балкон</a></h3>
           </div>
         </section>
@@ -187,9 +196,9 @@
         <section class="latest-post">
           <img src="images/501.jpg" class="latest-post-picture" alt="Стол с едой">
           <div class="latest-post-content">
-            <p class="above-text">
+            <div class="above-text">
               <time class="above-text-date">14 июня 2019</time>
-            </p>
+            </div>
             <h3 class="latest-post-title"><a href="#" class="latest-post-link">Кулинарный подход к науке</a></h3>
           </div>
         </section>
@@ -197,9 +206,9 @@
         <section class="latest-post">
           <img src="images/7.jpg" class="latest-post-picture" alt="Девушки с распущенными волосами">     
           <div class="latest-post-content">
-            <p class="above-text">
+            <div class="above-text">
               <time class="above-text-date">14 июня 2019</time>
-            </p>
+            </div>
             <h3 class="latest-post-title"><a href="#" class="latest-post-link">Лучшие прически для распущенных волос</a></h3>
           </div>
         </section>
@@ -267,11 +276,12 @@
 <div class="shop">
         <h2 class="shop-title">Наши изделия</h2>
         <div class="shop-list">
+
           <section class="shop-card">
             <picture class="shop-card-image">
               <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
-                <source media="(min-width: 768px) and (max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
-                  <source media="(min-width: 360px) and (max-width: 767px)" srcset="images/shop-item-mobile1.jpg">
+                <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+                  <source media="(min-width: 360px) and (max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
                 <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом на диване">
             </picture>
             <div class="product-description">
@@ -290,11 +300,11 @@
 
           </section>
           
-          <section class="shop-card">
+          <section class="shop-card shop-card-next">
             <picture class="shop-card-image">
               <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
-                <source media="(min-width: 768px) and (max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
-                  <source media="(min-width: 360px) and (max-width: 767px)" srcset="images/shop-item-mobile2.jpg">
+                <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
+                  <source media="(min-width: 360px) and (max-width: 640px)" srcset="images/shop-item-mobile2.jpg">
                 <img src="images/shop-item-desk2.jpg" alt="Подушка с принтом на диване">
             </picture>
             <div class="product-description">
@@ -316,8 +326,8 @@
           <section class="shop-card shop-card-special">
             <picture class="shop-card-image">
               <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
-                <source media="(min-width: 768px) and (max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
-                  <source media="(min-width: 360px) and (max-width: 767px)" srcset="images/shop-item-mobile3.jpg">
+                <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
+                  <source media="(min-width: 360px) and (max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
                 <img src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка и ваза">
             </picture>
             <div class="product-description">
@@ -343,12 +353,12 @@
   
 <footer class="container">
     <ul class="social-contacts">
-      <li class="social-icon-item"><a href="#" class="social-icon social-icon-dribble"></a></li>
-      <li class="social-icon-item"><a href="#" class="social-icon social-icon-pinterest"></a></li>
-      <li class="social-icon-item"><a href="#" class="social-icon social-icon-tumblr"></a></li>
+      <li class="social-icon-item"><a href="#" class="social-icon social-icon-dribble"></a><span class="visually-hidden">Перейти в Dribble</span></li>
+      <li class="social-icon-item"><a href="#" class="social-icon social-icon-pinterest"></a><span class="visually-hidden">Перейти в Pinterest</span></li>
+      <li class="social-icon-item"><a href="#" class="social-icon social-icon-tumblr"></a><span class="visually-hidden">Перейти в Tumblr</span></li>
     </ul>
     <div class="rights">
-      <p class="rights-name">Copyright &copy; 2009-2019 CityBlog LLC.</p>
+      <a class="rights-name">Copyright &copy; 2009-2019 CityBlog LLC.</a>
     </div>
 </footer>
 
